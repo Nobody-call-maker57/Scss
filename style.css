@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.portfolio-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.portfolio-card .card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.portfolio-card .card-header .avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 4px solid #2563eb;
+  margin-bottom: 0.5rem;
+}
+.portfolio-card .card-header .name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.portfolio-card .card-header .title {
+  font-size: 0.95rem;
+  color: #2563eb;
+  font-weight: 600;
+}
+.portfolio-card .card-body {
+  margin-bottom: 2rem;
+}
+.portfolio-card .card-body .bio {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgb(64.3820224719, 87.9887640449, 126.6179775281);
+}
+.portfolio-card .card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.portfolio-card .card-footer .btn {
+  text-decoration: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 0.65rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.portfolio-card .card-footer .btn:hover {
+  background-color: rgb(18.5714285714, 76.1428571429, 202.4285714286);
+  transform: translateY(-2px);
+}
+.portfolio-card .card-footer .btn.btn-outline {
+  background-color: transparent;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+.portfolio-card .card-footer .btn.btn-outline:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
